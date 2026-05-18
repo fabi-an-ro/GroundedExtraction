@@ -8,6 +8,7 @@ let package = Package(
     name: "GroundedExtraction",
     platforms: [
         .iOS(.v26),
+        .macOS(.v26),
     ],
     products: [
         .library(
